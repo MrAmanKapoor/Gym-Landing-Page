@@ -495,9 +495,9 @@ nav h2   {
     .header {
         background-color: none;
         background-image: linear-gradient(rgba(37, 38, 41, 0.2), rgba(29, 29, 31, 0.2)), url(images/Bg.jpg);
-        background-position: left;
+        background-position: center;
         background-size: cover;
-        height: 95vh;
+         min-height: 40vh;
     }
 
     nav {
@@ -530,6 +530,8 @@ nav h2   {
 @media(max-width:700px) {
 
     .header {
+        min-height: 40vh;
+        position: relative;
         background-color: none;
         background-image: linear-gradient(rgba(37, 38, 41, 0.7), rgba(29, 29, 31, 0.9)), url(images/Bg.jpg);
         background-position: center;
@@ -756,11 +758,5 @@ footer span {
     .textbox p {
         font-size: larger;
     }
-    .header
-    {
-        min-height: 40vh;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-    }
+   
 }
