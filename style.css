@@ -756,4 +756,11 @@ footer span {
     .textbox p {
         font-size: larger;
     }
+    .header
+    {
+        min-height: 40vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
 }
