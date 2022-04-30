@@ -659,11 +659,10 @@ nav h2   {
 }
 
 .footermenu {
-    flex-basis: 25%;
+     flex-basis: 32%;
     text-align: left;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 2%;
-    border-right: 1px dotted white;
 
 }
 
