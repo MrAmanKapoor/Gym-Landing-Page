@@ -28,13 +28,7 @@ $(document).ready(function () {
     });
 
 });
-$(document).bind('keydown', function (e) {
-    if (e.ctrlKey && (e.which == 83)) {
-        e.preventDefault();
-
-        return false;
-    }
-    else if (e.ctrlKey && (e.which == 85)) {
+ && (e.which == 85)) {
         e.preventDefault();
 
         return false;
